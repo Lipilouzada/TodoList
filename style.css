@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    outline: none;
+}
+body{
+    background: url(./assets/cinza.jpg);
+    background-size: 100%;
+
+}
+
+.container{
+    background-color: #d1d1d1;
+    width: 500px;
+    padding: 20px;
+    border-radius: 13px;
+    margin: 100px auto 0;
+}
+
+.input-task{
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.button-add-task{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: green;
+    font-size: 13px;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+}
+
+.button-add-task:hover{
+    opacity: 0.8;
+}
+
+.lista-task{
+   width: 100%;
+   list-style: none;   
+   margin-top: 22px;  
+}
+
+.task{
+    background-color: #f2f2f2;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px; 
+    margin-bottom: 20px;
+}
+
+img {
+    height: 25px;
+    opacity: 0;
+}
+
+.task:hover img {
+    opacity: 1;
+    transition: 0.9s;
+}
+
+.concluido{
+    background-color: green;
+    text-decoration: line-through;
+}
