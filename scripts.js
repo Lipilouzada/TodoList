@@ -48,5 +48,3 @@ function deletarItem(posicao){
 } 
 
 button.addEventListener('click', AdicionarTarefa)
-
-alert("MUITO FEIOKKKKKKKKKKKKKKKKKKKKKKKKKKKK")
